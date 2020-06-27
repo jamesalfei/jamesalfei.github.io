@@ -19,6 +19,5 @@ github_username:  jamesalfei
 
 # Build settings
 theme: minima
-  skin: 
 plugins:
   - jekyll-feed
