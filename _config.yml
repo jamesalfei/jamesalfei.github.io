@@ -18,6 +18,10 @@ twitter_username: jamesalfei
 github_username:  jamesalfei
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+
+# Plugin settings
+theme: minima
+minima:
+  skin: dark
