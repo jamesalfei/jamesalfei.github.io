@@ -2,18 +2,151 @@ job_title: Senior software engineer
 website: www.jamesalfei.co.uk
 mobile: 07800520184
 
-personal_profile: >-
-  Hello there
+personal_profile: |
+  I am a Software Engineer who has worked for DVLA, IBM, Admiral Group,
+  Sorenson Media and the Alcumus group. I have had experience
+  in professional software development and working in large scale
+  software projects as well as small, with exposure to the full
+  development lifecycle. I like to get involved with the latest
+  and greatest technology as well as looking at things like
+  globalisation and accessibility within applications.
+
+  I also hold a First- Class Hons. MEng Computing degree from Swansea University,
+  as well as being a Member of the BCS. I take a logical approach
+  to any problems I am faced with and can adapt to any working
+  environment or team. My broad and extensive knowledge of software
+  development ensures I am highly skilled in this area, as well as many
+  other related fields within technology.
 
 work_experience:
-  - job_title: Engineer
-    period: April 2011 - Present
-    details: Engineered things
+  - job_title: Senior Software Engineer
+    company: DVLA
+    period: February 2019 - Present
+    details: |
+      DVLA
 
-key_skills:
-  - Java
+  - job_title: Software Engineer
+    company: Admiral Group
+    period: January 2018 - Feburary 2019
+    details: |
+      Working primarily with Java based web services (both SOAP and REST based)
+      and web applications. Integrating custom internal software with third
+      party services for the insurance industry. I also develop applications
+      for direct customer consumption and ensure they are fit for purpose.
+
+      Main duties:
+      * Developing, extending and architecting new and existing solutions and products to be used internally and externally
+      * Improving code quality and standards through training and static code analysis systems
+      * Introducing CI pipeline to the development process
+      * Introducing test coverage metrics and enhanced test quality
+      * Maintaining infrastructure for our services and investigating cloud based migrations
+      * Presenting mini tech-talks to members of the department to share knowledge
+
+  - job_title: Software Engineer
+    company: Sorenson Media
+    period: June 2016 - January 2018
+    details: |
+      Working primarily with web based technologies, I have been a
+      part of both the Analytics team and the Data Management Platform
+      (DMP) team. I have worked with Angular, Node, Python and Ruby,
+      with exposure to automated system testing using Cucumber and API
+      development using Gunicorn and Falcon (for Python). I have also
+      worked with several database technologies including Redshift (PostgreSQL),
+      Aurora (MySQL), MongoDB and database migration systems such as Liquibase.
+
+      I have had a significant exposure to cloud systems using AWS, where
+      I have completed my AWS Certified Developer - Associate certification.
+      I have also worked with big data and big data systems in this role,
+      including exposure to data warehousing systems, as well as creating
+      custom ETL software for our data providers.
+
+      This job was working in a very agile team, including scrum
+      masters, end of sprint reviews and retrospectives and involved
+      working closely with product owners throughout. The role involved
+      heavy usage of the Atlassian suite of tools, including Jira,
+      BitBucket and Bamboo, as well as Slack for "team communication"
+      (mostly gifs and banter).
+
+  - job_title: Software Developer
+    company: Alcumus
+    period: June 2015 - June 2016
+    details: |
+      Working primarily in Java, Spring (Boot, Data, Security, Webflow etc.),
+      Hibernate, JSP, Thymeleaf, and a large assortment of other technologies.
+
+      I work both on ageing legacy systems as well as our cutting edge
+      bespoke systems for the business.
+
+      I work heavily on Eclipse and Microso SQL Server 2008, deploying
+      to Tomcat based servers with automated builds running on Jenkins.
+
+  - job_title: Graduate Software Engineer
+    company: IBM
+    period: September 2014 - June 2015
+    details: |
+      As a software engineer at IBM, I am responsible for the development,
+      maintenance and debugging of software in IBM's portfolio. I am currently
+      working on IBM Rational Integration Tester, but have had experience working
+      on the distributed build team for CICS TG. I am also responsible for
+      globalisation of our product on top of my regular duties.
+
+      My job requires the use of many different technologies, including
+      Oracle DB, MS SQL, MySQL, DB2, Java, Ant, Web based technologies,
+      Web services amongst many other things. As well as this, the role of
+      managing globalisation means I have responsibility of managing the
+      software in many different languages, including the look and feel of
+      the application in specific localities, functional issues arising from
+      string changes and must be on hand for consulting of string localisation
+      and the processes involved.
+
+  - job_title: Workshop Delivery Assistant
+    company: Technocamps
+    period: November 2012 - July 2014
+    details: |
+      Technocamps is an exciting project that provides free workshops
+      to young people on programming, robotics, game design, app development
+      and much more......
+
+      It is about getting young people (11-19 years) in Wales excited
+      about Computer Science and STEM and challenging them to think about
+      the world around them in a different way.
+
+      My role within the project is to assist in the delivery of
+      workshops to the students, as well as creating new workshops, and
+      delivering these in exciting new ways.
 
 education:
   - institution: Swansea University
-    qualification: MEng Computing
-    details: Hello there
+    period: 2010-2014
+    qualification: MEng Computing (1st Class Hons.)
+  - institution: Gowerton Comprehensive School
+    period: 2003 - 2010
+    qualification: |
+      A-Levels (2xA, B, C)
+
+      GCSEs (2xA*, 4xA, 3xB)
+
+profesional_qualifications:
+  - name: AWS Certifified Developer
+    level: Assosciate
+    period: December 2017 - December 2020
+  - name: QA Consulting - Advanced secure development
+    level: Pass
+    period: December 2018
+  - name: StayAhead training - Java Programming 2
+    level: OCJP
+    period: May 2019
+
+volunteering:
+  - name: STEM Ambassador
+    period: April 2017 - Present
+  - name: Code Club
+    period: September 2019 - February 2020
+
+key_skills:
+  - Java
+  - DevOps
+  - REST APIs
+  - Ruby
+  - CI/CD
+  - AWS & Cloud

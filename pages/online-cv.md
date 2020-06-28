@@ -24,7 +24,9 @@ permalink: /online-cv/
 
 * e: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a>
 * w: <a href="{{ site.url }}">{{ site.data.online_cv.website }}</a>
-* m: {{ site.data.online_cv.mobile }}
+* m: <a href="tel:{{ site.data.online_cv.mobile }}">{{ site.data.online_cv.mobile }}</a>
+* <a href="https://github.com/jamesalfei"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg>github.com/jamesalfei</a>
+* <a href="https://www.linkedin.com/in/jamesalfei"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg>linkedin.com/in/jamesalfei</a>
 
 </div>
 <div class="clear"></div>
@@ -34,15 +36,11 @@ permalink: /online-cv/
 <section>
 <article>
 <div class="sectionTitle" markdown="1">
-
 # Personal Profile
-
 </div>
 
 <div class="sectionContent" markdown="1">
-
 {{ site.data.online_cv.personal_profile }}
-
 </div>
 </article>
 <div class="clear"></div>
@@ -51,17 +49,37 @@ permalink: /online-cv/
 
 <section>
 <div class="sectionTitle" markdown="1">
-<h1>Work Experience</h1>
+# Work Experience
 </div>
 
 <div class="sectionContent">
-
 {% for experience in site.data.online_cv.work_experience %}
-<article>
-<h2>{{ experience.job_title }}</h2>
+<article markdown="1">
+## {{ experience.job_title }} - {{ experience.company }}
 <p class="subDetails">{{ experience.period }}</p>
+<br>
 {{ experience.details }}
 </article>
+<br>
+{% endfor %}
+</div>
+<div class="clear"></div>
+</section>
+
+
+<section>
+<div class="sectionTitle" markdown="1">
+# Education
+</div>
+
+<div class="sectionContent">
+{% for education in site.data.online_cv.education %}
+<article markdown="1">
+## {{ education.institution }}
+<p class="subDetails">{{ education.period }}</p>
+{{ education.qualification }}
+</article>
+<br>
 {% endfor %}
 
 </div>
@@ -70,36 +88,57 @@ permalink: /online-cv/
 
 
 <section>
-<div class="sectionTitle">
-<h1>Key Skills</h1>
+<div class="sectionTitle" markdown="1">
+# Professional qualifications
+</div>
+
+<div class="sectionContent">
+{% for qual in site.data.online_cv.profesional_qualifications %}
+<article markdown="1">
+## {{ qual.name }}
+<p class="subDetails">{{ qual.period }}</p>
+{{ qual.level }}
+</article>
+<br>
+{% endfor %}
+
+</div>
+<div class="clear"></div>
+</section>
+
+
+<section>
+<div class="sectionTitle" markdown="1">
+# Volunteering
+</div>
+
+<div class="sectionContent">
+{% for vol in site.data.online_cv.volunteering %}
+<article markdown="1">
+## {{ vol.name }}
+<p class="subDetails">{{ vol.period }}</p>
+</article>
+<br>
+{% endfor %}
+
+
+</div>
+<div class="clear"></div>
+</section>
+
+
+
+<section>
+<div class="sectionTitle" markdown="1">
+# Key Skills
 </div>
 
 <div class="sectionContent">
 <div class="keySkills" markdown="1">
 {% for skill in site.data.online_cv.key_skills %}
-
 # {{ skill }}
-
 {% endfor %}
 </div>
-</div>
-<div class="clear"></div>
-</section>
-
-
-<section>
-<div class="sectionTitle">
-<h1>Education</h1>
-</div>
-
-<div class="sectionContent">
-<article>
-<h2>College/University</h2>
-<p class="subDetails">Qualification</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-hendrerit. Curabitur non consequat enim.</p>
-</article>
-
 </div>
 <div class="clear"></div>
 </section>

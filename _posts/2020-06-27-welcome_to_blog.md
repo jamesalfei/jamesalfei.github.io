@@ -5,6 +5,6 @@ date:   2020-06-27
 ---
 Welcome to my new website!
 
-This is a work in progress and will be updated soon with many more details
+This is a work in progress and will be updated soon with many more details.
 
 Thanks for visiting!

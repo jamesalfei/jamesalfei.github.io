@@ -8,8 +8,7 @@ Licensing Agency (DVLA) in Swansea, Wales.
 
 I have a love for all things technology and fintech and fix computers in my spare time.
 
-Please take a look at the [about][jamesalfei-about] page to find out more about me.
+On this website, I'll keep a list of projects I've worked on and companies I've worked with.
 
-If you'd like to get in contact, you can find my details on the [about][jamesalfei-about] page.
-
-[jamesalfei-about]: {% link pages/about.md %}
+If you'd like to get in contact with me about anything, my contact details can be found
+on the page footer, on in the [online CV]({%- link pages/online-cv.md -%}).

@@ -6,11 +6,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: James Alfei's personal website
+title: James Alfei
 tagline: The personal website of James Alfei
 author: James Alfei
 email: jamesalfei@gmail.com
-description: >-
+description: |
   The personal website of James Alfei.
 baseurl: ""
 url: "https://jamesalfei.co.uk"
