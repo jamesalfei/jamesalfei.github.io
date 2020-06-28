@@ -13,7 +13,7 @@ compress-site: yes
 plugins:
   - jekyll-feed
 
-theme: minima-jamesalfei
+remote_theme: jamesalfei/minima
 
 minima-jamesalfei:
   skin: dark
