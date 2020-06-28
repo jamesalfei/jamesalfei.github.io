@@ -9,11 +9,9 @@
 title: James Alfei's personal website
 tagline: The personal website of James Alfei
 author: James Alfei
-email: jamesalfei@icloud.com
+email: jamesalfei@gmail.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The personal website of James Alfei.
 baseurl: ""
 url: "https://jamesalfei.co.uk"
 google_analytics: UA-42788533-1
@@ -24,6 +22,7 @@ instagram_username: jamesalfei
 linkedin_username: jamesalfei
 
 # Build settings
+compress-site: yes
 plugins:
   - jekyll-feed
 
@@ -35,6 +34,7 @@ minima:
 # Navigation pages
 header_pages:
   - pages/about.md
+  - pages/online-cv.md
   - portfolio.md
 
 # SEO Plugin properties

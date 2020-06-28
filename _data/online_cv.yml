@@ -1,0 +1,19 @@
+job_title: Senior software engineer
+website: www.jamesalfei.co.uk
+mobile: 07800520184
+
+personal_profile: >-
+  Hello there
+
+work_experience:
+  - job_title: Engineer
+    period: April 2011 - Present
+    details: Engineered things
+
+key_skills:
+  - Java
+
+education:
+  - institution: Swansea University
+    qualification: MEng Computing
+    details: Hello there
