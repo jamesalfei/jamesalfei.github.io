@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  Build site:
+  Build-site:
 
     runs-on: ubuntu-latest
 
