@@ -7,6 +7,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: James Alfei's personal website
+tagline: The personal website of James Alfei
+author: James Alfei
 email: jamesalfei@icloud.com
 description: >-
   Write an awesome description for your new site here. You can edit this
@@ -14,8 +16,12 @@ description: >-
   Google search results) and in your feed.xml site description.
 baseurl: ""
 url: "https://jamesalfei.co.uk"
+google_analytics: UA-42788533-1
 twitter_username: jamesalfei
 github_username:  jamesalfei
+facebook_username: jamesalfei
+instagram_username: jamesalfei
+linkedin_username: jamesalfei
 
 # Build settings
 plugins:
@@ -25,3 +31,17 @@ plugins:
 theme: minima
 minima:
   skin: dark
+
+# Navigation pages
+header_pages:
+  - pages/about.md
+  - portfolio.md
+
+# SEO Plugin properties
+social:
+  name: James Alfei
+  links:
+    - https://twitter.com/jamesalfei
+    - https://www.facebook.com/james.alfei
+    - https://www.linkedin.com/in/jamesalfei
+    - https://github.com/jamesalfei

@@ -4,10 +4,10 @@ Welcome to the source code for [James Alfei][jamesalfei-website]
 
 Some handy guides for anyone wanting to build a site like this:
 
-[Jekyll docs](https://jekyllrb.com/docs/)
-[Jekyll Minima theme](https://github.com/jekyll/minima)
-[Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-[Favicon generator](https://realfavicongenerator.net)
+* [Jekyll docs](https://jekyllrb.com/docs/)
+* [Jekyll Minima theme](https://github.com/jekyll/minima)
+* [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Favicon generator](https://realfavicongenerator.net)
 
 ### Support or Contact
 
