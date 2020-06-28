@@ -14,7 +14,7 @@ permalink: /online-cv/
 
 <div id="name" markdown="1">
 
-# {{ site.author }}
+# {{ site.author.name }}
 
 ## {{ site.data.online_cv.job_title }}
 
@@ -22,7 +22,7 @@ permalink: /online-cv/
 
 <div id="contactDetails" markdown="1">
 
-* e: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a>
+* e: <a href="mailto:{{ site.author.email }}" target="_blank">{{ site.author.email }}</a>
 * w: <a href="{{ site.url }}">{{ site.data.online_cv.website }}</a>
 * m: <a href="tel:{{ site.data.online_cv.mobile }}">{{ site.data.online_cv.mobile }}</a>
 * <a href="https://github.com/jamesalfei"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg>github.com/jamesalfei</a>
@@ -55,7 +55,7 @@ permalink: /online-cv/
 <div class="sectionContent">
 {% for experience in site.data.online_cv.work_experience %}
 <article markdown="1">
-## {{ experience.job_title }} - {{ experience.company }}
+## {{ experience.job_title }} - [{{ experience.company }}]({{ experience.url }}){:target="_blank"}
 <p class="subDetails">{{ experience.period }}</p>
 <br>
 {{ experience.details }}
@@ -79,7 +79,6 @@ permalink: /online-cv/
 <p class="subDetails">{{ education.period }}</p>
 {{ education.qualification }}
 </article>
-<br>
 {% endfor %}
 
 </div>
@@ -99,7 +98,6 @@ permalink: /online-cv/
 <p class="subDetails">{{ qual.period }}</p>
 {{ qual.level }}
 </article>
-<br>
 {% endfor %}
 
 </div>
@@ -130,13 +128,13 @@ permalink: /online-cv/
 
 <section>
 <div class="sectionTitle" markdown="1">
-# Key Skills
+# Skills
 </div>
 
 <div class="sectionContent">
 <div class="keySkills" markdown="1">
 {% for skill in site.data.online_cv.key_skills %}
-# {{ skill }}
+{{ skill }}
 {% endfor %}
 </div>
 </div>

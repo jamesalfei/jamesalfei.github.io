@@ -1,41 +1,32 @@
-# Welcome to Jekyll!
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: James Alfei
-tagline: The personal website of James Alfei
-author: James Alfei
-email: jamesalfei@gmail.com
-description: |
-  The personal website of James Alfei.
-baseurl: ""
-url: "https://jamesalfei.co.uk"
+author:
+  name: James Alfei
+  email: jamesalfei@gmail.com
 google_analytics: UA-42788533-1
-twitter_username: jamesalfei
-github_username:  jamesalfei
-facebook_username: jamesalfei
-instagram_username: jamesalfei
-linkedin_username: jamesalfei
+tagline: The personal website of James Alfei
+url: "https://jamesalfei.co.uk"
+description: >
+  The personal website of James Alfei.
 
 # Build settings
 compress-site: yes
 plugins:
   - jekyll-feed
 
-# Plugin settings
-theme: minima
-minima:
+theme: minima-jamesalfei
+
+minima-jamesalfei:
   skin: dark
+  social_links:
+    github:  jamesalfei
+    facebook: jamesalfei
+    linkedin: jamesalfei
+    # keybase: jekyll
 
 # Navigation pages
 header_pages:
-  - pages/about.md
   - pages/online-cv.md
-  - portfolio.md
+  - pages/portfolio.md
 
 # SEO Plugin properties
 social:

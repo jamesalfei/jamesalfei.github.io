@@ -3,30 +3,39 @@ website: www.jamesalfei.co.uk
 mobile: 07800520184
 
 personal_profile: |
-  I am a Software Engineer who has worked for DVLA, IBM, Admiral Group,
-  Sorenson Media and the Alcumus group. I have had experience
-  in professional software development and working in large scale
-  software projects as well as small, with exposure to the full
-  development lifecycle. I like to get involved with the latest
-  and greatest technology as well as looking at things like
-  globalisation and accessibility within applications.
+  I'm currently a Senior Software Engineer working for the DVLA. I have previously worked for
+  IBM, Admiral Group, Sorenson Media and the Alcumus group. I have a wide experience of full stack
+  development in both large and small scale systems. I have worked for small startups and large global
+  organisations and central government departments. I mainly work in Java and Ruby but have experience in
+  a wide range of lanuges and technologies, including Go, Python, Kubernetes, AWS, Serverless Framework, Docker,
+  Spinnaker, Drone.io and many more.
 
-  I also hold a First- Class Hons. MEng Computing degree from Swansea University,
-  as well as being a Member of the BCS. I take a logical approach
-  to any problems I am faced with and can adapt to any working
-  environment or team. My broad and extensive knowledge of software
-  development ensures I am highly skilled in this area, as well as many
-  other related fields within technology.
+  At DVLA, I currently work on the RaV (Register a Vehicle) service, as well as our enquiry services and V5C change
+  of address. On top of this, I work across and support a wide range of different services that the DVLA offers. I have
+  keen interests in CI/CD pipelines, software architecture and security and cloud/serverless applications.
 
 work_experience:
   - job_title: Senior Software Engineer
     company: DVLA
+    url: https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency
     period: February 2019 - Present
     details: |
-      DVLA
+      I currently work with mainly microservice based applications as well as some serverless applications.
+      These services are required to have minimal downtime and must be extremely robust and secure due to
+      the nature of being a government service. In this role I have gained experience in a number of different areas:
+
+      * Full CI/CD pipelines including full test suites and promotion through to production
+      * Cutting edge deployment systems such as Spinnaker, Drone and Serverless Framework
+      * State of the art monitoring tools such as Instana and the ELK stack
+      * True agile development in a "squad" format
+      * Used Scala and Go to work on Play Framework and Drone plugins respectively
+      * Mentoring team members and representing the squad at many cross squad discussions
+      * Actively involved with many cross government communities and chats, including security, design
+        and software engineering standards
 
   - job_title: Software Engineer
     company: Admiral Group
+    url: https://www.admiral.com
     period: January 2018 - Feburary 2019
     details: |
       Working primarily with Java based web services (both SOAP and REST based)
@@ -44,6 +53,7 @@ work_experience:
 
   - job_title: Software Engineer
     company: Sorenson Media
+    url: https://en.wikipedia.org/wiki/Sorenson_Media
     period: June 2016 - January 2018
     details: |
       Working primarily with web based technologies, I have been a
@@ -64,11 +74,11 @@ work_experience:
       masters, end of sprint reviews and retrospectives and involved
       working closely with product owners throughout. The role involved
       heavy usage of the Atlassian suite of tools, including Jira,
-      BitBucket and Bamboo, as well as Slack for "team communication"
-      (mostly gifs and banter).
+      BitBucket and Bamboo, as well as Slack for team communication.
 
   - job_title: Software Developer
     company: Alcumus
+    url: https://www.alcumusgroup.com
     period: June 2015 - June 2016
     details: |
       Working primarily in Java, Spring (Boot, Data, Security, Webflow etc.),
@@ -82,6 +92,7 @@ work_experience:
 
   - job_title: Graduate Software Engineer
     company: IBM
+    url: https://www.ibm.com/uk-en
     period: September 2014 - June 2015
     details: |
       As a software engineer at IBM, I am responsible for the development,
@@ -101,11 +112,12 @@ work_experience:
 
   - job_title: Workshop Delivery Assistant
     company: Technocamps
+    url: http://www.technocamps.com
     period: November 2012 - July 2014
     details: |
       Technocamps is an exciting project that provides free workshops
       to young people on programming, robotics, game design, app development
-      and much more......
+      and much more.
 
       It is about getting young people (11-19 years) in Wales excited
       about Computer Science and STEM and challenging them to think about
@@ -145,8 +157,19 @@ volunteering:
 
 key_skills:
   - Java
-  - DevOps
-  - REST APIs
+  - Javascript
   - Ruby
   - CI/CD
+  - DevOps
+  - REST APIs
   - AWS & Cloud
+  - Serverless
+  - Instana
+  - Docker
+  - Kubernetes
+  - Microservices
+  - Clean code
+  - TDD & BDD
+  - Architecture
+  - Teaching
+  - Agile

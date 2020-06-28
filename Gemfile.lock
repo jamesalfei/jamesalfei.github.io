@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jamesalfei/minima.git
-  revision: eb0474c6ee64fac4297aefbf26b84e8987c535a7
+  revision: 60cda356a9f53e6b0fbcf27555b9afcea3b9d9a0
   specs:
     minima-jamesalfei (1.0.0)
       jekyll (>= 3.5, < 5.0)

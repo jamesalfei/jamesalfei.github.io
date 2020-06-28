@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: James Alfei's personal website
 layout: home
 ---
 
