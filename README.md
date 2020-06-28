@@ -1,5 +1,7 @@
 ## James Alfei's personal website
 
+[![Build Status](https://travis-ci.org/jamesalfei/jamesalfei.github.io.svg?branch=master)](https://travis-ci.org/jamesalfei/jamesalfei.github.io)
+
 Welcome to the source code for [James Alfei][jamesalfei-website]
 
 Some handy guides for anyone wanting to build a site like this:
