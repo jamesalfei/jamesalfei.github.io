@@ -7,7 +7,7 @@ source 'https://rubygems.org'
 #     bundle exec jekyll serve
 
 # Jekyll theme
-gem 'minima', '~> 2.5'
+gem 'minima-jamesalfei', git: 'git://github.com/jamesalfei/minima.git'
 
 group :jekyll_plugins do
   gem 'github-pages', '~> 206'
