@@ -6,7 +6,7 @@ before_install:
   - gem update --system --no-document
   - gem install bundler --no-document
 
-script: bundle exec jekyll build
+script: travis-script.sh
 
 env:
   matrix:
