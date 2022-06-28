@@ -8,7 +8,7 @@ google_analytics: UA-42788533-1
 tagline: The personal website of James Alfei
 url: "https://jamesalfei.co.uk"
 description: >
-  The personal website of James Alfei.
+  James Alfei - Software Engineer
 
 # Build settings
 compress-site: yes
@@ -16,7 +16,7 @@ compress-site: yes
 remote_theme: jamesalfei/minima
 
 minima-jamesalfei:
-  skin: dark
+  skin: solarized-dark
   social_links:
     github:  jamesalfei
     linkedin: jamesalfei
@@ -31,5 +31,3 @@ social:
   links:
     - https://www.linkedin.com/in/jamesalfei
     - https://github.com/jamesalfei
-
-theme: jekyll-theme-minimal
