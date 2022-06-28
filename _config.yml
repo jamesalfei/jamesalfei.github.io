@@ -3,9 +3,9 @@ include: [".well-known"]
 title: James Alfei
 author:
   name: James Alfei
-  email: jamesalfei@icloud.com
+  email: james@jamesalfei.co.uk
 google_analytics: UA-42788533-1
-tagline: The personal website of James Alfei
+tagline: Software Engineer
 url: "https://jamesalfei.co.uk"
 description: >
   James Alfei - Software Engineer
@@ -13,11 +13,12 @@ description: >
 # Build settings
 compress-site: yes
 
-remote_theme: jamesalfei/minima
+remote_theme: jekyll/minima
 
-minima-jamesalfei:
+minima:
   skin: solarized-dark
   social_links:
+    twitter: jamesalfei
     github:  jamesalfei
     linkedin: jamesalfei
 

@@ -3,6 +3,6 @@
 ---
 
 @import
-  "minima-jamesalfei/skins/{{ site.minima-jamesalfei.skin | default: 'classic' }}",
-  "minima-jamesalfei/initialize";
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
 @import "online-cv";
