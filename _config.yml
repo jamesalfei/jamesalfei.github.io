@@ -12,8 +12,6 @@ description: >
 
 # Build settings
 compress-site: yes
-plugins:
-  - jekyll-feed
 
 remote_theme: jamesalfei/minima
 
@@ -22,12 +20,10 @@ minima-jamesalfei:
   social_links:
     github:  jamesalfei
     linkedin: jamesalfei
-    keybase: jamesalfei
 
 # Navigation pages
 header_pages:
   - pages/online-cv.md
-  - pages/portfolio.md
 
 # SEO Plugin properties
 social:
