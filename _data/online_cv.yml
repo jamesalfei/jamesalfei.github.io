@@ -1,6 +1,6 @@
 job_title: Lead software engineer
 website: www.jamesalfei.co.uk
-mobile: 07800520184
+mobile: (+44)7800520184
 
 personal_profile: |
   I'm currently a Lead Software Engineer working for the DVLA. I have previously worked for
@@ -141,9 +141,9 @@ education:
   - institution: Gowerton Comprehensive School
     period: 2003 - 2010
     qualification: |
-      A-Levels (2xA, B, C)
-
-      GCSEs (2xA*, 4xA, 3xB)
+      A-Levels - (A, A, B, C)
+      
+      GCSEs - (A\*, A\*, A, A, A, A, B, B, B)
 
 profesional_qualifications:
   - name: AWS Certifified Developer

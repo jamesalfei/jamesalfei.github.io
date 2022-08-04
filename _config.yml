@@ -23,8 +23,8 @@ minima:
     linkedin: jamesalfei
 
 # Navigation pages
-header_pages:
-  - pages/online-cv.md
+#header_pages:
+#  - pages/online-cv.md
 
 # SEO Plugin properties
 social:

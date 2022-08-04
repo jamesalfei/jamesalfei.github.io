@@ -13,4 +13,5 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem 'tzinfo-data'
 end
 
+gem 'rubocop', group: 'development'
 gem "webrick", "~> 1.7"
