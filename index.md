@@ -51,6 +51,9 @@ layout: home
 
 <div class="sectionContent">
 {% for experience in site.data.online_cv.work_experience %}
+<div id="companyLogo" markdown="1">
+![{{experience.company}}](/assets/{{ experience.image }}.jpeg "{{ experience.company }}")
+</div>
 <article markdown="1">
 ## {{ experience.job_title }} - [{{ experience.company }}]({{ experience.url }}){:target="_blank"}
 <p class="subDetails">{{ experience.period }}</p>

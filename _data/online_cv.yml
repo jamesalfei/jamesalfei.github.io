@@ -17,6 +17,7 @@ personal_profile: |
 work_experience:
   - job_title: Lead Software Engineer
     company: DVLA
+    image: dvla
     url: https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency
     period: December 2020 - Present
     details: |
@@ -35,6 +36,7 @@ work_experience:
 
   - job_title: Senior Software Engineer
     company: DVLA
+    image: dvla
     url: https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency
     period: February 2019 - December 2020
     details: |
@@ -42,6 +44,7 @@ work_experience:
 
   - job_title: Software Engineer
     company: Admiral Group
+    image: admiral
     url: https://www.admiral.com
     period: January 2018 - Feburary 2019
     details: |
@@ -60,6 +63,7 @@ work_experience:
 
   - job_title: Software Engineer
     company: Sorenson Media
+    image: sorenson
     url: https://en.wikipedia.org/wiki/Sorenson_Media
     period: June 2016 - January 2018
     details: |
@@ -85,6 +89,7 @@ work_experience:
 
   - job_title: Software Developer
     company: Alcumus
+    image: alcumus
     url: https://www.alcumusgroup.com
     period: June 2015 - June 2016
     details: |
@@ -99,6 +104,7 @@ work_experience:
 
   - job_title: Graduate Software Engineer
     company: IBM
+    image: ibm
     url: https://www.ibm.com/uk-en
     period: September 2014 - June 2015
     details: |
@@ -119,6 +125,7 @@ work_experience:
 
   - job_title: Workshop Delivery Assistant
     company: Technocamps
+    image: technocamps
     url: http://www.technocamps.com
     period: November 2012 - July 2014
     details: |
