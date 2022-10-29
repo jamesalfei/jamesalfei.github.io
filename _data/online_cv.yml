@@ -3,27 +3,32 @@ website: www.jamesalfei.co.uk
 mobile: (+44)7800520184
 
 personal_profile: |
-  I'm currently a Lead Software Engineer working for the DVLA. I have previously worked for
-  IBM, Admiral Group, Sorenson Media and the Alcumus group. I have a wide experience of full stack
+  I'm currently a Lead Software Engineer working for Capgemini UK. I have previously worked for
+  DVLA, IBM, Admiral Group, Sorenson Media and the Alcumus group. I have a wide experience of full stack
   development in both large and small scale systems. I have worked for small startups and large global
   organisations and central government departments. I mainly work in Java, Ruby and Javascript but have experience in
   a wide range of languages and technologies, including Go, Python, Kubernetes, AWS, Serverless applications, Docker,
   Spinnaker, Drone.io and many more.
 
-  At DVLA, I currently work on the Tachograph project, and have previously worked on our enquiry services and V5C change
-  of address, as well as the RaV (Register a Vehicle) services. On top of this, I work across and support a wide range of different services that the DVLA offers.
-  I have keen interests in CI/CD pipelines, software architecture and security and cloud/serverless applications.
-
 work_experience:
+  - job_title: Lead Software Engineer
+    company: Capgemini
+    image: capgemini
+    url: https://www.capgemini.com/gb-en/
+    period: Octover 2022 - Present
+    details: |
+      I have recently joined Capgemini as a Lead Software Engineer working within the Digital Transformation Centre (DTC)
+      specifically working with the HMRC Market Unit. Watch this space for more updates...
+
   - job_title: Lead Software Engineer
     company: DVLA
     image: dvla
     url: https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency
-    period: December 2020 - Present
+    period: December 2020 - October 2022
     details: |
-      I currently work with mainly microservice based applications as well as some serverless applications.
-      These services are required to have minimal downtime and must be extremely robust and secure due to
-      the nature of being a government service. In this role I have gained experience in a number of different areas:
+      I primarily worked with microservice based applications as well as some serverless applications.
+      These services were required to have minimal downtime and must be extremely robust and secure due to
+      the nature of being a government service. In this role I had gained experience in a number of different areas:
 
       * Full CI/CD pipelines including full test suites and promotion through to production
       * Cutting edge deployment systems such as Spinnaker, Drone and Serverless Framework
@@ -33,6 +38,14 @@ work_experience:
       * Mentoring team members and representing the squad at many cross squad discussions
       * Actively involved with many cross government communities and chats, including security, design
         and software engineering standards
+      
+      Notable projects at DVLA:
+      
+      * Register a Vehicle (RaV) service
+      * V5C Change of Address
+      * Multiple DVLA enquiry services including Photo at the Roadside (PATR), Enhanced drivers data (EDD) for Home Office etc. 
+      * Tachograph service
+      * Driving licence domain
 
   - job_title: Senior Software Engineer
     company: DVLA
