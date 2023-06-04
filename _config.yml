@@ -3,7 +3,7 @@ include: [".well-known"]
 title: James Alfei
 author:
   name: James Alfei
-  email: james@jamesalfei.co.uk
+  email: james@alfei.uk
 google_analytics: UA-42788533-1
 tagline: Software Engineer
 url: "https://jamesalfei.co.uk"
@@ -16,11 +16,10 @@ compress-site: yes
 remote_theme: jekyll/minima
 
 minima:
-  skin: solarized-dark
+  skin: auto
   social_links:
-    twitter: jamesalfei
-    github:  jamesalfei
-    linkedin: jamesalfei
+    - { platform: github, user_url: "https://github.com/jamesalfei" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/jamesalfei" }
 
 # Navigation pages
 #header_pages:
