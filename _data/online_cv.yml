@@ -17,8 +17,21 @@ work_experience:
     url: https://www.capgemini.com/gb-en/
     period: Octover 2022 - Present
     details: |
-      I have recently joined Capgemini as a Lead Software Engineer working within the Digital Transformation Centre (DTC)
-      specifically working with the HMRC Market Unit. Watch this space for more updates...
+      Within Capgemini, I work within the Custom Software Development (CSD) pillar 
+      which is embedded within HMRC and looks after their Enterprise Integration 
+      Services (EIS) platform. Within EIS I have progressed from a Technical Lead on 
+      a single team to a “pod lead” acting as the lead engineer for between 6 and 8 
+      squads (dependant on project), as well as taking up additional responsibilities
+      as a “DevOps Champion”. The tech stack consists of:
+      * Java microservices running Spring Boot & Apache Camel
+      * Kubernetes based infrastructure using Rancher, Helm and Teraform
+     
+      As Capgemini is a  consultancy, I also then additionally wear a second hat on the 
+      corporate side, where I act as a line manager and “assignment manager” for 15 people 
+      and am heavily involved in initiatives such as our internal Java Academy, strategic 
+      direction decisions relating to client contracts and standard setting across 
+      the Capgemini business.
+
 
   - job_title: Lead Software Engineer
     company: DVLA
