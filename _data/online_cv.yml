@@ -3,11 +3,11 @@ website: www.jamesalfei.co.uk
 mobile: (+44)7800520184
 
 personal_profile: |
-  I'm currently a Lead Software Engineer working for Capgemini UK. I have previously worked for
+  Hi, I'm James! I'm a Lead Software Engineer at Capgemini UK. I have previously worked for
   DVLA, IBM, Admiral Group, Sorenson Media and the Alcumus group. I have a wide experience of full stack
-  development in both large and small scale systems. I have worked for small startups and large global
+  development in both large and small scale systems. I have worked for small startups, large global
   organisations and central government departments. I mainly work in Java, Ruby and Javascript but have experience in
-  a wide range of languages and technologies, including Go, Python, Kubernetes, AWS, Serverless applications, Docker,
+  a wide range of languages and technologies, including Go, Python, Kubernetes, AWS, Serverless applications, Docker &  K8s,
   Spinnaker, Drone.io and many more.
 
 work_experience:
@@ -15,19 +15,21 @@ work_experience:
     company: Capgemini
     image: capgemini
     url: https://www.capgemini.com/gb-en/
-    period: Octover 2022 - Present
+    period: October 2022 - Present
     details: |
-      Within Capgemini, I work within the Custom Software Development (CSD) pillar 
-      which is embedded within HMRC and looks after their Enterprise Integration 
-      Services (EIS) platform. Within EIS I have progressed from a Technical Lead on 
-      a single team to a “pod lead” acting as the lead engineer for between 6 and 8 
-      squads (dependant on project), as well as taking up additional responsibilities
-      as a “DevOps Champion”. The tech stack consists of:
-      * Java microservices running Spring Boot & Apache Camel
-      * Kubernetes based infrastructure using Rancher, Helm and Teraform
+      Within Capgemini, I work within the Custom Software Development (CSD) practice, in
+      which I am embedded within HMRC. I lead a "pod" of 4 teams working on the Enterprise Integration 
+      Services (EIS) platform. Additionally, I am a “DevOps Champion” and lead many
+      of the improvement initiatives in play. The tech stack consists of:
+      
+      * Java microservices running Spring Boot & Apache Camel.
+      * Kubernetes based infrastructure using Rancher, Helm and Teraform.
+      * AWS underlying infrastructure supporting all services.
+      * BDD tests written in Cucumber/Gherkin syntax.
+      * GitLab CI/Jenkins for CI/CD functionality.
      
       As Capgemini is a  consultancy, I also then additionally wear a second hat on the 
-      corporate side, where I act as a line manager and “assignment manager” for 15 people 
+      corporate side, where I act as a people manager and assignment manager for up to 15 people 
       and am heavily involved in initiatives such as our internal Java Academy, strategic 
       direction decisions relating to client contracts and standard setting across 
       the Capgemini business.
@@ -43,14 +45,14 @@ work_experience:
       These services were required to have minimal downtime and must be extremely robust and secure due to
       the nature of being a government service. In this role I had gained experience in a number of different areas:
 
-      * Full CI/CD pipelines including full test suites and promotion through to production
-      * Cutting edge deployment systems such as Spinnaker, Drone and Serverless Framework
-      * State of the art monitoring tools such as Instana and the ELK stack
-      * True agile development in a "squad" format
-      * Used Scala and Go to work on Play Framework and Drone plugins respectively
-      * Mentoring team members and representing the squad at many cross squad discussions
+      * Full CI/CD pipelines including full test suites and promotion through to production.
+      * Cutting edge deployment systems such as Spinnaker, Drone and Serverless Framework.
+      * State of the art monitoring tools such as Instana and the ELK stack.
+      * True agile development in a "squad" format.
+      * Used Scala and Go to work on Play Framework and Drone plugins respectively.
+      * Mentoring team members and representing the squad at many cross squad discussions.
       * Actively involved with many cross government communities and chats, including security, design
-        and software engineering standards
+        and software engineering standards.
       
       Notable projects at DVLA:
       
@@ -98,7 +100,7 @@ work_experience:
       (DMP) team. I have worked with Angular, Node, Python and Ruby,
       with exposure to automated system testing using Cucumber and API
       development using Gunicorn and Falcon (for Python). I have also
-      worked with several database technologies including Redshift (PostgreSQL),
+      worked with several database technologies including Redshift (Postgres),
       Aurora (MySQL), MongoDB and database migration systems such as Liquibase.
 
       I have had a significant exposure to cloud systems using AWS, where
@@ -122,10 +124,10 @@ work_experience:
       Working primarily in Java, Spring (Boot, Data, Security, Webflow etc.),
       Hibernate, JSP, Thymeleaf, and a large assortment of other technologies.
 
-      I work both on ageing legacy systems as well as our cutting edge
+      I worked on both on ageing legacy systems as well as our modern
       bespoke systems for the business.
 
-      I work heavily on Eclipse and Microso SQL Server 2008, deploying
+      I work heavily on Eclipse and Microsoft SQL Server 2008, deploying
       to Tomcat based servers with automated builds running on Jenkins.
 
   - job_title: Graduate Software Engineer
@@ -180,7 +182,7 @@ education:
 
 profesional_qualifications:
   - name: AWS Certifified Developer
-    level: Assosciate
+    level: Associate
     period: December 2017 - December 2020
   - name: QA Consulting - Advanced secure development
     level: Pass
@@ -196,20 +198,17 @@ volunteering:
     period: September 2019 - February 2020
 
 key_skills:
-  - Java
-  - Javascript
-  - Ruby
+  - Object oriented programming
   - CI/CD
   - DevOps
-  - REST APIs
+  - REST & SOAP APIs
   - AWS & Cloud
   - Serverless
-  - Instana
-  - Docker
-  - Kubernetes
+  - APM/Observability
+  - Docker & Kubernetes
   - Microservices
   - Clean code
   - TDD & BDD
   - Architecture
-  - Teaching
-  - Agile
+  - Mentoring
+  - Scrum & Agile
