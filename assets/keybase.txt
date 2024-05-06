@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jamesalfei
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alfei.uk
+  * I am jamesalfei (https://keybase.io/jamesalfei) on keybase.
+  * I have a public key ASAM2dtbMl9lE0iO-OFtafLFeYmJ14U9H1YxMkGzAjq_xQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012013a089399e0c579b8f468e0039794687af77b9025a4d25c2e95dd3a0d6c2e46d0a",
+      "host": "keybase.io",
+      "kid": "01200cd9db5b325f6513488ef8e16d69f2c5798989d7853d1f56313241b3023abfc50a",
+      "uid": "fb4aa269f3844ba188a4830fdc2f2219",
+      "username": "jamesalfei"
+    },
+    "merkle_root": {
+      "ctime": 1715018869,
+      "hash": "37e1d91900fb012c301b1825718637664003179e758ab9c8620912c6880d69b9b28d6f999bb8eb95604166a69ba960d98c4ab68a2806d0cdfec5c00271ff183c",
+      "hash_meta": "845212952e998288d3c6a7192ffa58b34438e64df8f9947aa29174b59e5497b1",
+      "seqno": 25702893
+    },
+    "service": {
+      "entropy": "ccZQ/qGrwl1sUTAeGAKocMFg",
+      "hostname": "alfei.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.8"
+  },
+  "ctime": 1715018939,
+  "expire_in": 504576000,
+  "prev": "cfd7339ac9b49e32ddc5249efbecca18e81e925a366651c5114f31cfe057acee",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDNnbWzJfZRNIjvjhbWnyxXmJideFPR9WMTJBswI6v8UKp3BheWxvYWTESpcCF8Qgz9czmsm0njLdxSSe++zKGOgeklo2ZlHFEU8xz+BXrO7EIKIo0E8jT3in87OXVrIg2z+yykxuhnXfiaQxBq+Q4sqzAgHCo3NpZ8RAwep0MVq8oivHEhWDybYMZf5jy0Z6PeFfYAWrKnaMBP8YSetd097b05K+mSeYCEdjB1BrSwrdEA3Gpve19atMAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGGO/9wqRPBFOoosdm+Nl762d6uj9DsSZIXwypdgw/7Jo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamesalfei
+
+==================================================================
