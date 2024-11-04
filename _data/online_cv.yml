@@ -3,24 +3,47 @@ website: www.jamesalfei.co.uk
 mobile: (+44)7800520184
 
 personal_profile: |
-  Hi, I'm James! I'm a Lead Software Engineer at Capgemini UK. I have previously worked for
-  DVLA, IBM, Admiral Group, Sorenson Media and the Alcumus group. I have a wide experience of full stack
+  Hi! I'm James, a Software Engineer at Starling Bank (Cardiff, Wales). I have previously worked for
+  Capgemini, DVLA, IBM, Admiral Group, Sorenson Media and the Alcumus group. I have a wide experience of full stack
   development in both large and small scale systems. I have worked for small startups, large global
-  organisations and central government departments. I mainly work in Java, Ruby and Javascript but have experience in
-  a wide range of languages and technologies, including Go, Python, Kubernetes, AWS, Serverless applications, Docker &  K8s,
-  Spinnaker, Drone.io and many more.
+  organisations, UK government critical national infrastructure (CNI) and financial service technologies. 
+  I mainly work in Java and Javascript but have experience in a wide range of languages and technologies, including 
+  Ruby, Go, Python, Kubernetes, AWS, Serverless applications, Docker &  K8s many more.
 
 work_experience:
+  - job_title: Software Engineer
+    company: Starling Bank
+    image: starling
+    url: https://www.starlingbank.com/
+    period: April 2024 - Present
+    details: |
+      At Starling I am a member of the Account Management engineering group which looks after all things customer accounts,
+      core customer records, transactions and more. Pretty much everything that happens in the bank will at some point
+      touch a service within Account Management (AM). I work as a senior-level IC in a team which acts as a drop-in team for any
+      and all bits of work within the bank which may not fall into distinct product categories, resulting in a workday which
+      is varied, ever-evolving and extremely rewarding. The tech stack is as follows:
+      
+      * Java 21, with the only "framework" being Guice for DI and IoC
+      * Docker & K8s for services in environments
+      * Postgres DB in RDS & Cloud SQL
+      * AWS & GCP for cloud
+      * TeamCity & GH Actions for CI pipelines
+      * GitHub for all code
+      
+      Starling truly do follow an "engineering focussed" mentality with Engineering having significant freedom and trust
+      to "do the right thing" (one of Starling's core values). The team has no scrum masters, no sprints, no Jira tickets
+      and definitely no time tracking! It's been a breath of fresh air and an employer I wholeheartedly recommend.
+
   - job_title: Lead Software Engineer
     company: Capgemini
     image: capgemini
     url: https://www.capgemini.com/gb-en/
-    period: October 2022 - Present
+    period: October 2022 - April 2024
     details: |
-      Within Capgemini, I work within the Custom Software Development (CSD) practice, in
-      which I am embedded within HMRC. I lead a "pod" of 4 teams working on the Enterprise Integration 
-      Services (EIS) platform. Additionally, I am a “DevOps Champion” and lead many
-      of the improvement initiatives in play. The tech stack consists of:
+      Within Capgemini, I worked within the Custom Software Development (CSD) practice, in
+      which I was embedded within HMRC. I led a "pod" of 4 teams working on the Enterprise Integration 
+      Services (EIS) platform. Additionally, I was a “DevOps Champion” and led many
+      of the improvement initiatives in play. The tech stack consisted of:
       
       * Java microservices running Spring Boot & Apache Camel.
       * Kubernetes based infrastructure using Rancher, Helm and Teraform.
@@ -28,9 +51,9 @@ work_experience:
       * BDD tests written in Cucumber/Gherkin syntax.
       * GitLab CI/Jenkins for CI/CD functionality.
      
-      As Capgemini is a  consultancy, I also then additionally wear a second hat on the 
-      corporate side, where I act as a people manager and assignment manager for up to 15 people 
-      and am heavily involved in initiatives such as our internal Java Academy, strategic 
+      As Capgemini is a  consultancy, I also then additionally wore a second hat on the 
+      corporate side, where I acted as a people manager and assignment manager for up to 15 people 
+      and was heavily involved in initiatives such as our internal Java Academy, strategic 
       direction decisions relating to client contracts and standard setting across 
       the Capgemini business.
 
