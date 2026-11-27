@@ -14,11 +14,16 @@ description: >
 compress-site: yes
 theme: null
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - README.md
   - start-site.sh
   - jamesalfei.github.io.iml
-  - Gemfile
-  - Gemfile.lock
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
