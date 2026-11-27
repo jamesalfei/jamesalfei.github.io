@@ -1,6 +1,5 @@
 job_title: Lead software engineer
 website: www.jamesalfei.co.uk
-mobile: (+44)7800520184
 
 personal_profile: |
   Hi! I'm James, a Software Engineer at Starling Bank (Cardiff, Wales). I have previously worked for
@@ -17,13 +16,13 @@ work_experience:
     url: https://www.starlingbank.com/
     period: April 2024 - Present
     details: |
-      At Starling I am a member of the Account Management engineering group which looks after all things customer accounts,
+      At Starling I am a member of the Accounts engineering group which looks after all things customer accounts,
       core customer records, transactions and more. Pretty much everything that happens in the bank will at some point
-      touch a service within Account Management (AM). I work as a senior-level IC in a team which acts as a drop-in team for any
+      touch a service within Accounts. I work as a senior-level IC in a team which acts as a drop-in team for any
       and all bits of work within the bank which may not fall into distinct product categories, resulting in a workday which
       is varied, ever-evolving and extremely rewarding. The tech stack is as follows:
       
-      * Java 21, with the only "framework" being Guice for DI and IoC
+      * Java 25, with the only "framework" being Guice for DI and IoC
       * Docker & K8s for services in environments
       * Postgres DB in RDS & Cloud SQL
       * AWS & GCP for cloud
