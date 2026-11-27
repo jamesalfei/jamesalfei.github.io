@@ -4,26 +4,38 @@ title: James Alfei
 author:
   name: James Alfei
   email: skilled_curio38@icloud.com
-google_analytics: UA-42788533-1
 tagline: Software Engineer
 url: "https://jamesalfei.co.uk"
 description: >
-  James Alfei - Software Engineer
+  James Alfei - Software Engineer based in Swansea, Wales. Building resilient backend systems,
+  cloud-native infrastructure, and financial & public-sector platforms.
 
 # Build settings
 compress-site: yes
+theme: null
+exclude:
+  - README.md
+  - start-site.sh
+  - jamesalfei.github.io.iml
+  - Gemfile
+  - Gemfile.lock
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-remote_theme: jekyll/minima
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/headshot.png
 
-minima:
-  skin: auto
-  social_links:
-    - { platform: github, user_url: "https://github.com/jamesalfei" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/jamesalfei" }
-
-# Navigation pages
-#header_pages:
-#  - pages/online-cv.md
+social_links:
+  - platform: github
+    label: GitHub
+    url: "https://github.com/jamesalfei"
+  - platform: linkedin
+    label: LinkedIn
+    url: "https://www.linkedin.com/in/jamesalfei"
 
 # SEO Plugin properties
 social:

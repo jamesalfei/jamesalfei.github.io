@@ -1,0 +1,145 @@
+---
+layout: default
+---
+
+<section id="top" class="hero" aria-labelledby="hero-name">
+  <div class="hero-header">
+    <img
+      class="hero-avatar"
+      src="{{ '/assets/headshot.png' | relative_url }}"
+      alt="Portrait of {{ site.author.name }}"
+      width="92"
+      height="92"
+      fetchpriority="high"
+      decoding="async"
+    >
+    <div class="hero-identity">
+      <h1 id="hero-name">{{ site.author.name }}</h1>
+      <p class="hero-meta">
+        <span class="hero-role">{{ site.data.online_cv.job_title }}</span>
+        <span class="hero-sep" aria-hidden="true">&middot;</span>
+        <span class="hero-location">
+          {%- include icons.html name="map-pin" -%}
+          <span>{{ site.data.online_cv.location }}</span>
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <p class="hero-bio">{{ site.data.online_cv.personal_profile }}</p>
+
+  <nav class="hero-actions" aria-label="Contact and social profiles">
+    <a class="action-pill action-pill--primary" href="mailto:{{ site.author.email }}">
+      {%- include icons.html name="mail" -%}
+      <span>{{ site.author.email }}</span>
+    </a>
+    <button
+      type="button"
+      class="action-pill"
+      id="copy-email-btn"
+      data-email="{{ site.author.email }}"
+    >
+      {%- include icons.html name="copy" -%}
+      {%- include icons.html name="check" -%}
+      <span class="copy-label" aria-live="polite">Copy email</span>
+    </button>
+    {%- for link in site.social_links -%}
+    <a
+      class="action-pill"
+      href="{{ link.url }}"
+      target="_blank"
+      rel="me noopener noreferrer"
+    >
+      {%- include icons.html name=link.platform -%}
+      <span>{{ link.label }}</span>
+      <span class="sr-only"> (opens in new tab)</span>
+    </a>
+    {%- endfor -%}
+  </nav>
+</section>
+
+<section class="cv-section" aria-labelledby="experience-heading">
+  <h2 id="experience-heading" class="section-heading">Experience</h2>
+
+  <div class="timeline">
+    {%- for exp in site.data.online_cv.work_experience -%}
+      {%- include experience-card.html exp=exp -%}
+    {%- endfor -%}
+  </div>
+
+  <details class="earlier-career" id="earlier-career">
+    <summary class="earlier-summary">
+      <span class="earlier-chevron" aria-hidden="true"></span>
+      <span class="earlier-title">Earlier career (2012 - 2018)</span>
+      <span class="earlier-count">{{ site.data.online_cv.earlier_experience | size }} roles</span>
+    </summary>
+    <div class="earlier-list">
+      {%- for exp in site.data.online_cv.earlier_experience -%}
+        {%- include experience-card.html exp=exp compact=true -%}
+      {%- endfor -%}
+    </div>
+  </details>
+</section>
+
+<section class="cv-section" aria-labelledby="skills-heading">
+  <h2 id="skills-heading" class="section-heading">Skills</h2>
+  <div class="skills-grid">
+    {%- for group in site.data.online_cv.skill_groups -%}
+    <div class="skill-group">
+      <h3 class="skill-category">{{ group.category }}</h3>
+      <ul class="tag-list">
+        {%- for item in group.items -%}
+        <li class="tag">{{ item }}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<div class="two-col-sections">
+  <div class="col-stack">
+    <section class="cv-section" aria-labelledby="education-heading">
+      <h2 id="education-heading" class="section-heading">Education</h2>
+      <div class="compact-list">
+        {%- for edu in site.data.online_cv.education -%}
+        <article class="compact-item">
+          <div class="compact-item-top">
+            <h3>{{ edu.institution }}</h3>
+            <span class="role-period">{{ edu.period }}</span>
+          </div>
+          <p class="compact-sub">{{ edu.qualification }}</p>
+        </article>
+        {%- endfor -%}
+      </div>
+    </section>
+
+    <section class="cv-section" aria-labelledby="volunteering-heading">
+      <h2 id="volunteering-heading" class="section-heading">Volunteering</h2>
+      <div class="compact-list">
+        {%- for vol in site.data.online_cv.volunteering -%}
+        <article class="compact-item">
+          <div class="compact-item-top">
+            <h3>{{ vol.name }}</h3>
+            <span class="role-period">{{ vol.period }}</span>
+          </div>
+        </article>
+        {%- endfor -%}
+      </div>
+    </section>
+  </div>
+
+  <section class="cv-section" aria-labelledby="qualifications-heading">
+    <h2 id="qualifications-heading" class="section-heading">Certifications</h2>
+    <div class="compact-list">
+      {%- for qual in site.data.online_cv.professional_qualifications -%}
+      <article class="compact-item">
+        <div class="compact-item-top">
+          <h3>{{ qual.name }}</h3>
+        </div>
+        <p class="compact-sub">{{ qual.level }} &middot; <span class="role-period">{{ qual.period }}</span></p>
+      </article>
+      {%- endfor -%}
+    </div>
+  </section>
+</div>

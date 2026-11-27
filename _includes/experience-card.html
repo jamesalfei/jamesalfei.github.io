@@ -1,0 +1,51 @@
+{%- assign exp = include.exp -%}
+{%- assign is_compact = include.compact | default: false -%}
+<article class="exp-card{% if is_compact %} exp-card--compact{% endif %}">
+  <div class="exp-header">
+    <div class="exp-logo exp-logo--{{ exp.logo_style | default: 'light' }}" aria-hidden="true">
+      <img
+        src="{{ '/assets/' | append: exp.image | append: '.png' | relative_url }}"
+        alt=""
+        width="{% if is_compact %}36{% else %}44{% endif %}"
+        height="{% if is_compact %}36{% else %}44{% endif %}"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+    <div class="exp-title-block">
+      <h3>
+        <a class="company-link" href="{{ exp.url }}" target="_blank" rel="noopener noreferrer">
+          <span>{{ exp.company }}</span>
+          {%- include icons.html name="external" -%}
+          <span class="sr-only"> (opens in new tab)</span>
+        </a>
+      </h3>
+      <div class="role-list">
+        {%- for role in exp.roles -%}
+        <div class="role-row">
+          <span class="role-title">{{ role.title }}</span>
+          <span class="role-period">{{ role.period }}</span>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+
+  <p class="exp-summary">{{ exp.summary }}</p>
+
+  {%- if exp.highlights -%}
+  <ul class="exp-highlights">
+    {%- for item in exp.highlights -%}
+    <li>{{ item }}</li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  {%- if exp.tech -%}
+  <ul class="tag-list" aria-label="Technologies used at {{ exp.company }}">
+    {%- for tag in exp.tech -%}
+    <li class="tag">{{ tag }}</li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</article>

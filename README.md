@@ -1,19 +1,11 @@
 ## James Alfei's personal website
 
-[![Build Status](https://travis-ci.org/jamesalfei/jamesalfei.github.io.svg?branch=master)](https://travis-ci.org/jamesalfei/jamesalfei.github.io)
+Source code for [jamesalfei.co.uk](https://jamesalfei.co.uk), built with Jekyll and deployed via GitHub Pages.
 
-Welcome to the source code for [James Alfei][jamesalfei-website]
+### Local development
 
-Some handy guides for anyone wanting to build a site like this:
+```bash
+./start-site.sh
+```
 
-* [Jekyll docs](https://jekyllrb.com/docs/)
-* [Jekyll Minima theme](https://github.com/jekyll/minima)
-* [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Favicon generator](https://realfavicongenerator.net)
-
-### Support or Contact
-
-See something wrong with the site? Please get in touch! [Contact details][jamesalfei-about]
-
-[jamesalfei-website]: https://www.jamesalfei.co.uk
-[jamesalfei-about]: https://www.jamesalfei.co.uk/about
+CV content is managed in `_data/online_cv.yml`, site metadata in `_config.yml`, and styles in `assets/css/style.css`.

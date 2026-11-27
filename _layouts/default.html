@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- include head.html -%}
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="topbar-brand" href="{{ '/' | relative_url }}">{{ site.data.online_cv.website }}</a>
+      <div class="topbar-actions">
+        <button type="button" class="util-btn" id="print-cv-btn">
+          {%- include icons.html name="printer" -%}
+          <span>Save PDF</span>
+        </button>
+        <button type="button" class="util-btn" id="theme-toggle-btn" aria-label="Switch to light theme">
+          {%- include icons.html name="sun" -%}
+          {%- include icons.html name="moon" -%}
+          <span class="theme-label-light">Light</span>
+          <span class="theme-label-dark">Dark</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>{{ site.author.name }} &middot; {{ site.data.online_cv.location }}</p>
+      <p class="footer-links">
+        <a href="{{ '/keybase.txt' | relative_url }}">PGP / Keybase</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="#top">Back to top</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

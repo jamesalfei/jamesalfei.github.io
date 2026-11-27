@@ -1,236 +1,214 @@
-job_title: Lead software engineer
+job_title: Software Engineer
+location: Cardiff, Wales
 website: www.jamesalfei.co.uk
 
-personal_profile: |
-  Hi! I'm James, a Software Engineer at Starling Bank (Cardiff, Wales). I have previously worked for
-  Capgemini, DVLA, IBM, Admiral Group, Sorenson Media and the Alcumus group. I have a wide experience of full stack
-  development in both large and small scale systems. I have worked for small startups, large global
-  organisations, UK government critical national infrastructure (CNI) and financial service technologies. 
-  I mainly work in Java and Javascript but have experience in a wide range of languages and technologies, including 
-  Ruby, Go, Python, Kubernetes, AWS, Serverless applications, Docker &  K8s many more.
+personal_profile: >
+  Software Engineer at Starling Bank with over a decade of experience across financial services,
+  UK critical national infrastructure, global consultancies, and startups. Primarily focused on
+  Java, distributed backend systems, and cloud-native platforms, with broad hands-on experience
+  across Go, Scala, JavaScript, Python, Kubernetes, AWS, and GCP.
 
 work_experience:
-  - job_title: Software Engineer
-    company: Starling Bank
+  - company: Starling Bank
     image: starling
+    logo_style: starling
     url: https://www.starlingbank.com/
-    period: April 2024 - Present
-    details: |
-      At Starling I am a member of the Accounts engineering group which looks after all things customer accounts,
-      core customer records, transactions and more. Pretty much everything that happens in the bank will at some point
-      touch a service within Accounts. I work as a senior-level IC in a team which acts as a drop-in team for any
-      and all bits of work within the bank which may not fall into distinct product categories, resulting in a workday which
-      is varied, ever-evolving and extremely rewarding. The tech stack is as follows:
-      
-      * Java 25, with the only "framework" being Guice for DI and IoC
-      * Docker & K8s for services in environments
-      * Postgres DB in RDS & Cloud SQL
-      * AWS & GCP for cloud
-      * TeamCity & GH Actions for CI pipelines
-      * GitHub for all code
-      
-      Starling truly do follow an "engineering focussed" mentality with Engineering having significant freedom and trust
-      to "do the right thing" (one of Starling's core values). The team has no scrum masters, no sprints, no Jira tickets
-      and definitely no time tracking! It's been a breath of fresh air and an employer I wholeheartedly recommend.
+    roles:
+      - title: Software Engineer
+        period: April 2024 - Present
+    summary: >
+      Member of the Accounts engineering group powering core customer records, accounts, and
+      transactions, services touched by nearly every flow across the bank. Operating as a senior-level
+      IC in an autonomous, engineering-led drop-in team tackling high-impact work across domains
+      with no sprints, Jira tickets, or time tracking.
+    highlights:
+      - Build and evolve mission-critical core banking services in modern Java (Java 25) with Guice DI/IoC.
+      - Run containerized services on Kubernetes and Docker backed by PostgreSQL across AWS RDS and GCP Cloud SQL.
+      - Ship continuously via TeamCity and GitHub Actions pipelines in a high-trust engineering culture.
+    tech:
+      - Java 25
+      - Guice
+      - Kubernetes
+      - Docker
+      - PostgreSQL
+      - AWS
+      - GCP
+      - TeamCity
+      - GitHub Actions
 
-  - job_title: Lead Software Engineer
-    company: Capgemini
+  - company: Capgemini
     image: capgemini
+    logo_style: light
     url: https://www.capgemini.com/gb-en/
-    period: October 2022 - April 2024
-    details: |
-      Within Capgemini, I worked within the Custom Software Development (CSD) practice, in
-      which I was embedded within HMRC. I led a "pod" of 4 teams working on the Enterprise Integration 
-      Services (EIS) platform. Additionally, I was a “DevOps Champion” and led many
-      of the improvement initiatives in play. The tech stack consisted of:
-      
-      * Java microservices running Spring Boot & Apache Camel.
-      * Kubernetes based infrastructure using Rancher, Helm and Teraform.
-      * AWS underlying infrastructure supporting all services.
-      * BDD tests written in Cucumber/Gherkin syntax.
-      * GitLab CI/Jenkins for CI/CD functionality.
-     
-      As Capgemini is a  consultancy, I also then additionally wore a second hat on the 
-      corporate side, where I acted as a people manager and assignment manager for up to 15 people 
-      and was heavily involved in initiatives such as our internal Java Academy, strategic 
-      direction decisions relating to client contracts and standard setting across 
-      the Capgemini business.
+    roles:
+      - title: Lead Software Engineer
+        period: October 2022 - April 2024
+    summary: >
+      Embedded within HMRC's Custom Software Development practice leading a four-team pod on the
+      Enterprise Integration Services (EIS) platform, while serving as a DevOps Champion and
+      corporate people manager.
+    highlights:
+      - Led delivery across 4 engineering teams on HMRC's EIS Java microservices platform (Spring Boot & Apache Camel).
+      - Championed DevOps improvements across Kubernetes infrastructure (Rancher, Helm, Terraform) on AWS.
+      - Built automated BDD test suites in Cucumber/Gherkin and CI/CD workflows in GitLab CI and Jenkins.
+      - Managed and mentored up to 15 engineers, contributed to the internal Java Academy, and advised on client strategy and engineering standards.
+    tech:
+      - Java
+      - Spring Boot
+      - Apache Camel
+      - Kubernetes
+      - Rancher
+      - Helm
+      - Terraform
+      - AWS
+      - Cucumber
+      - GitLab CI
 
-
-  - job_title: Lead Software Engineer
-    company: DVLA
+  - company: DVLA
     image: dvla
+    logo_style: light
     url: https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency
-    period: December 2020 - October 2022
-    details: |
-      I primarily worked with microservice based applications as well as some serverless applications.
-      These services were required to have minimal downtime and must be extremely robust and secure due to
-      the nature of being a government service. In this role I had gained experience in a number of different areas:
+    roles:
+      - title: Lead Software Engineer
+        period: December 2020 - October 2022
+      - title: Senior Software Engineer
+        period: February 2019 - December 2020
+    summary: >
+      Built and operated high-availability, security-critical UK government services (CNI) using
+      microservices and serverless architectures across agile delivery squads.
+    highlights:
+      - Delivered public-facing and cross-government services including Register a Vehicle (RaV), V5C Change of Address, Tachograph, Driving Licence domain, and enquiry services (PATR, EDD for the Home Office).
+      - Worked across Scala (Play Framework) and Go (custom Drone CI plugins) alongside Java and Serverless Framework.
+      - Operated zero-downtime CI/CD pipelines (Spinnaker, Drone) and production observability (Instana, ELK stack).
+      - Mentored squad engineers and contributed to cross-government security, design, and engineering standards communities.
+    tech:
+      - Java
+      - Scala
+      - Play Framework
+      - Go
+      - AWS
+      - Serverless
+      - Spinnaker
+      - Drone
+      - Instana
+      - ELK Stack
 
-      * Full CI/CD pipelines including full test suites and promotion through to production.
-      * Cutting edge deployment systems such as Spinnaker, Drone and Serverless Framework.
-      * State of the art monitoring tools such as Instana and the ELK stack.
-      * True agile development in a "squad" format.
-      * Used Scala and Go to work on Play Framework and Drone plugins respectively.
-      * Mentoring team members and representing the squad at many cross squad discussions.
-      * Actively involved with many cross government communities and chats, including security, design
-        and software engineering standards.
-      
-      Notable projects at DVLA:
-      
-      * Register a Vehicle (RaV) service
-      * V5C Change of Address
-      * Multiple DVLA enquiry services including Photo at the Roadside (PATR), Enhanced drivers data (EDD) for Home Office etc. 
-      * Tachograph service
-      * Driving licence domain
-
-  - job_title: Senior Software Engineer
-    company: DVLA
-    image: dvla
-    url: https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency
-    period: February 2019 - December 2020
-    details: |
-      As above
-
-  - job_title: Software Engineer
-    company: Admiral Group
+  - company: Admiral Group
     image: admiral
+    logo_style: light
     url: https://www.admiral.com
-    period: January 2018 - Feburary 2019
-    details: |
-      Working primarily with Java based web services (both SOAP and REST based)
-      and web applications. Integrating custom internal software with third
-      party services for the insurance industry. I also develop applications
-      for direct customer consumption and ensure they are fit for purpose.
+    roles:
+      - title: Software Engineer
+        period: January 2018 - February 2019
+    summary: >
+      Developed Java-based REST and SOAP web services and customer-facing insurance web
+      applications integrated with third-party providers.
+    highlights:
+      - Architected and extended internal and customer-facing insurance products.
+      - Introduced CI pipelines, test coverage metrics, and static code analysis to raise engineering quality.
+      - Maintained service infrastructure, explored cloud migrations, and ran internal knowledge-sharing tech talks.
+    tech:
+      - Java
+      - REST & SOAP
+      - CI/CD
+      - Static Analysis
 
-      Main duties:
-      * Developing, extending and architecting new and existing solutions and products to be used internally and externally
-      * Improving code quality and standards through training and static code analysis systems
-      * Introducing CI pipeline to the development process
-      * Introducing test coverage metrics and enhanced test quality
-      * Maintaining infrastructure for our services and investigating cloud based migrations
-      * Presenting mini tech-talks to members of the department to share knowledge
-
-  - job_title: Software Engineer
-    company: Sorenson Media
+earlier_experience:
+  - company: Sorenson Media
     image: sorenson
+    logo_style: light
     url: https://en.wikipedia.org/wiki/Sorenson_Media
-    period: June 2016 - January 2018
-    details: |
-      Working primarily with web based technologies, I have been a
-      part of both the Analytics team and the Data Management Platform
-      (DMP) team. I have worked with Angular, Node, Python and Ruby,
-      with exposure to automated system testing using Cucumber and API
-      development using Gunicorn and Falcon (for Python). I have also
-      worked with several database technologies including Redshift (Postgres),
-      Aurora (MySQL), MongoDB and database migration systems such as Liquibase.
+    roles:
+      - title: Software Engineer
+        period: June 2016 - January 2018
+    summary: >
+      Full-stack and data engineering across the Analytics and Data Management Platform (DMP) teams.
+      Built APIs, custom ETL pipelines, and data-warehousing integrations using Angular, Node.js,
+      Python (Falcon/Gunicorn), Ruby, Cucumber, Redshift, Aurora, MongoDB, Liquibase, and AWS.
 
-      I have had a significant exposure to cloud systems using AWS, where
-      I have completed my AWS Certified Developer - Associate certification.
-      I have also worked with big data and big data systems in this role,
-      including exposure to data warehousing systems, as well as creating
-      custom ETL software for our data providers.
-
-      This job was working in a very agile team, including scrum
-      masters, end of sprint reviews and retrospectives and involved
-      working closely with product owners throughout. The role involved
-      heavy usage of the Atlassian suite of tools, including Jira,
-      BitBucket and Bamboo, as well as Slack for team communication.
-
-  - job_title: Software Developer
-    company: Alcumus
+  - company: Alcumus
     image: alcumus
+    logo_style: light
     url: https://www.alcumusgroup.com
-    period: June 2015 - June 2016
-    details: |
-      Working primarily in Java, Spring (Boot, Data, Security, Webflow etc.),
-      Hibernate, JSP, Thymeleaf, and a large assortment of other technologies.
+    roles:
+      - title: Software Developer
+        period: June 2015 - June 2016
+    summary: >
+      Built bespoke web systems and maintained legacy platforms using Java, Spring (Boot, Data,
+      Security, Webflow), Hibernate, JSP/Thymeleaf, Microsoft SQL Server, Tomcat, and Jenkins.
 
-      I worked on both on ageing legacy systems as well as our modern
-      bespoke systems for the business.
-
-      I work heavily on Eclipse and Microsoft SQL Server 2008, deploying
-      to Tomcat based servers with automated builds running on Jenkins.
-
-  - job_title: Graduate Software Engineer
-    company: IBM
+  - company: IBM
     image: ibm
+    logo_style: dark
     url: https://www.ibm.com/uk-en
-    period: September 2014 - June 2015
-    details: |
-      As a software engineer at IBM, I am responsible for the development,
-      maintenance and debugging of software in IBM's portfolio. I am currently
-      working on IBM Rational Integration Tester, but have had experience working
-      on the distributed build team for CICS TG. I am also responsible for
-      globalisation of our product on top of my regular duties.
+    roles:
+      - title: Graduate Software Engineer
+        period: September 2014 - June 2015
+    summary: >
+      Developed and maintained IBM Rational Integration Tester (and supported the CICS TG
+      distributed build team) across Java, Ant, Oracle DB, DB2, MS SQL, and MySQL, while leading
+      product globalisation and localisation.
 
-      My job requires the use of many different technologies, including
-      Oracle DB, MS SQL, MySQL, DB2, Java, Ant, Web based technologies,
-      Web services amongst many other things. As well as this, the role of
-      managing globalisation means I have responsibility of managing the
-      software in many different languages, including the look and feel of
-      the application in specific localities, functional issues arising from
-      string changes and must be on hand for consulting of string localisation
-      and the processes involved.
-
-  - job_title: Workshop Delivery Assistant
-    company: Technocamps
+  - company: Technocamps
     image: technocamps
+    logo_style: full
     url: http://www.technocamps.com
-    period: November 2012 - July 2014
-    details: |
-      Technocamps is an exciting project that provides free workshops
-      to young people on programming, robotics, game design, app development
-      and much more.
+    roles:
+      - title: Workshop Delivery Assistant
+        period: November 2012 - July 2014
+    summary: >
+      Created and delivered hands-on programming, robotics, game design, and app development
+      workshops across Wales to inspire 11-19 year olds into Computer Science and STEM.
 
-      It is about getting young people (11-19 years) in Wales excited
-      about Computer Science and STEM and challenging them to think about
-      the world around them in a different way.
-
-      My role within the project is to assist in the delivery of
-      workshops to the students, as well as creating new workshops, and
-      delivering these in exciting new ways.
+skill_groups:
+  - category: Languages & Frameworks
+    items:
+      - Java (up to 25)
+      - Guice
+      - Spring Boot
+      - Go
+      - Scala / Play
+      - JavaScript / Node.js
+      - Python
+      - Ruby
+  - category: Cloud, Infra & Data
+    items:
+      - AWS
+      - GCP
+      - Kubernetes
+      - Docker
+      - Terraform & Helm
+      - Serverless
+      - PostgreSQL (RDS / Cloud SQL)
+      - Redshift & MySQL
+  - category: Delivery & Specialisms
+    items:
+      - Microservices
+      - REST & SOAP APIs
+      - CI/CD (GitHub Actions, TeamCity, GitLab CI, Drone)
+      - Observability & APM
+      - TDD & BDD (Cucumber)
+      - Clean Code & Architecture
+      - Technical Leadership & Mentoring
 
 education:
   - institution: Swansea University
-    period: 2010-2014
+    period: 2010 - 2014
     qualification: MEng Computing (1st Class Hons.)
-  - institution: Gowerton Comprehensive School
-    period: 2003 - 2010
-    qualification: |
-      A-Levels - (A, A, B, C)
-      
-      GCSEs - (A\*, A\*, A, A, A, A, B, B, B)
 
-profesional_qualifications:
-  - name: AWS Certifified Developer
-    level: Associate
-    period: December 2017 - December 2020
-  - name: QA Consulting - Advanced secure development
+professional_qualifications:
+  - name: StayAhead Training - Java Programming 2
+    level: Oracle Certified Java Programmer (OCJP)
+    period: May 2019
+  - name: QA Consulting - Advanced Secure Development
     level: Pass
     period: December 2018
-  - name: StayAhead training - Java Programming 2
-    level: OCJP
-    period: May 2019
+  - name: AWS Certified Developer
+    level: Associate (2017-2020)
+    period: December 2017 - December 2020
 
 volunteering:
   - name: STEM Ambassador
     period: April 2017 - Present
   - name: Code Club
     period: September 2019 - February 2020
-
-key_skills:
-  - Object oriented programming
-  - CI/CD
-  - DevOps
-  - REST & SOAP APIs
-  - AWS & Cloud
-  - Serverless
-  - APM/Observability
-  - Docker & Kubernetes
-  - Microservices
-  - Clean code
-  - TDD & BDD
-  - Architecture
-  - Mentoring
-  - Scrum & Agile
